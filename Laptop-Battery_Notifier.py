@@ -7,7 +7,7 @@ def Notify(description,percent):
                  description=description + "\n...poweredBy Abdullah Al Masum".format(percent),
                  duration=16,
                  urgency=Notification.URGENCY_CRITICAL,
-                 icon_path='C:/Users/Malware/Desktop/masum.ico').send();
+                 icon_path='masum.ico').send();
 def main():
     battery = psutil.sensors_battery()
     percentage = battery.percent
